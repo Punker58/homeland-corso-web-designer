@@ -1,0 +1,365 @@
+/* root */
+*{
+    font-family: "Inter";
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Container header*/
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+/* Navigation bar*/
+#navigation {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+a {
+    text-decoration: none ;
+}
+
+/* text style for header*/
+.nav-style {
+    text-transform: uppercase !important;
+    font-weight: bolder; 
+    text-decoration: none !important;
+}
+
+/* Navigation bar left*/
+.nav-left {
+    float: left;
+    margin: 30px;
+}
+
+/* Navigation bar left with text*/
+.nav-left  a {
+    padding: 10px;
+    color: #000 !important;
+    background-color: #d7ff00;
+    border-radius: 20px;
+}
+
+/* Navigation bar center*/
+.nav-center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Container text Navigation bar center*/
+.nav-c-top {
+    width: 33%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* text Navigation bar center*/
+.nav-center .nav-c-top  a{
+    padding: 15px;
+    text-align: center !important;
+    float: none !important;
+    color: #FFF !important;
+}
+
+/* Container Navigation bar right*/
+.nav-right {
+    margin-top: 20px;
+    float: right;
+}
+
+/* Container text Navigation bar right*/
+.nav-right  a {
+    margin: 30px;
+    color: #FFF !important;
+}
+/* hover text style navbar */
+.nav-right  a:hover,
+.nav-center .nav-c-top a:hover {
+    text-decoration: underline !important;
+    text-decoration-color: #d7ff00 !important;
+    text-decoration-thickness: 3px !important;
+}
+
+/* Container main*/
+.main:nth-child(even) {
+    width: 100%;
+    height: 850px;
+    background-image: url("../img/bg.webp");
+    background-size: cover;
+}
+
+/* Container submain - fast search*/
+.main:nth-child(odd) {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+/* Logo in main section*/
+.logo {
+    padding-top:50px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* Container Search bar*/
+.search-bar {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Search bar*/
+.search-bar input {
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+/* Search bar placeholder text*/
+.search-bar  input::placeholder {
+    font-size: 2vh;
+    font-weight: bolder; 
+    padding: 5px;
+}
+
+/* Search bar icon*/
+.fa-magnifying-glass {
+    margin: -40px;
+}
+
+
+/* Main: Arrow down */
+.arrow-down-section{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.arrow-down-section img {
+    padding-top: 200px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* Fast search: Title section*/
+#submain  h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* Fast search: Title section*/
+.container-fast-search {
+    padding: 3% 20% 0 22%;
+}
+
+/* Fast search: single box with image */
+.box-fast-search {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-image: url("../img/fast-search-milano.webp");
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* Fast search: single box text*/
+.box-fast-search  p {
+    margin: 15px 0 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+}
+
+/* Main container banner*/
+#banner {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 25%;
+}
+
+/* Sub Banner left*/
+.banner-left {
+    float: left;
+    width: 700px;
+    height: 200px;
+    margin: 100px 0 0 0;
+}
+
+/* Sub Banner left text*/
+.banner-left p {
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Sub Banner left button*/
+.banner-left  button {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #000 !important;
+    background-color: #d7ff00;
+    border-radius: 50px;
+}
+
+/* Sub Banner left text hover*/
+.banner-left  button:hover {
+    cursor: pointer;
+}
+
+/* Sub Banner right */
+.banner-right {
+    float: right;
+    width: 1000px;
+    height: 400px;
+}
+
+/* Sub Banner right img */
+.banner-right img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Main Container reviews*/
+#reviews {
+    width: 100%;
+    height: 400px;
+}
+
+/* Sub Container reviews*/
+.container-reviews {
+    padding: 10% 9% 0 9%;
+    display: inline-table;
+}
+
+/* Single box review*/
+.user-review {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+}
+
+/* Single box review image*/
+.user-img {
+    float: left;
+}
+
+/* Single box review name*/
+.user-review h3 {
+    text-align: left;
+    padding: 80px 0 0 200px;
+}
+
+/* Single box review text*/
+.user-review p {
+    float: left;
+    margin: -30px 0 0 200px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Single box review stars*/
+.stars-review {
+    float: right;
+    margin: -60px 0 0 0;
+}
+
+/* Main Container footer */
+#footer {
+    margin: 600px 0 0 0;
+    width: 100%;
+    float: left;
+    height: 500px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: black;
+}
+
+/* Top Footer section*/
+.footer-section {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+/* Top left & Top Right section */
+.footer-left, .footer-right {
+    width: 50%;
+    padding-bottom: 100px;
+}
+
+/* Top left image */
+.footer-left img {
+    float: left;
+    width: 35%;
+}
+
+/* Top Right single div (termini, lavoro, privacy) */
+.lavoro,
+.termini,
+.cookie   {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;  
+    text-decoration: none !important;
+    color: #FFF !important;
+    font-weight: 400;
+    padding: 30px 30px;
+}  
+
+/* Top Right single text */
+.lavoro a,
+.termini a,
+.cookie a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* horizontal line */
+hr {
+    border: 1px solid #696969;
+}
+
+/* Bottom footer */
+.footer-sub-section {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+/* bottom left and bottom right*/
+.footer-sub-left, .footer-sub-right {
+    width: 50%;
+}
+
+/* Bottom left and bottom right*/
+.footer-sub-left p {
+    text-align: left;
+    margin:30px 70px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Bottom right social icon */
+.social-icon img{
+    width: 35px;
+    height: auto;
+    margin: 10px 15px 0 15px;
+}
